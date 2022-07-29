@@ -1,0 +1,16 @@
+[
+   {
+     "bloc_home": {
+         "title" : "Voyage vers une communication incarnée",
+         "sub_title": "Créez un lien de qualité avec vos communautés",
+         "slogan": "LE COACHING & L'INTELLIGENCE COLLECTIVE COMME CARBURANT",
+         "menu_item": {
+            "home": "home",
+            "about": "Qui-suis-je ?",
+            "services": "Services",
+            "formations": "Formations",
+            "contact": "Contact"
+         }
+      }
+   }
+ ]
