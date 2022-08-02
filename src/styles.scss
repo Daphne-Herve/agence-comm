@@ -47,3 +47,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+// @mixin phone {
+//   @media (max-width: 740px) {
+//     @content;
+//   }
+// }
+
+// @mixin tablet {
+//   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+//     @content;
+//   }
+// }
+
+// @media (max-width: 740px) {
+
+// }
+
+$breakpoint-phone: 740px;
+
+@media (max-width: $breakpoint-phone) {
+	body {
+		// background-color: tomato;
+	}
+}
+
+// @include breakpoint(453px $breakpoint-phone) {
+
+// }
+
+// @include breakpoint($breakpoint-phone 850px) {
+
+// }

@@ -1,0 +1,10 @@
+<svg width="175" height="165" viewBox="0 0 175 165" fill="none" xmlns="http://www.w3.org/2000/svg" style="" class="">
+<path d="M173.5 82.5C173.5 127.153 135.081 163.5 87.5 163.5C39.9191 163.5 1.5 127.153 1.5 82.5C1.5 37.8469 39.9191 1.5 87.5 1.5C135.081 1.5 173.5 37.8469 173.5 82.5Z" stroke="#465ADF" stroke-width="3" class="LTkjdLml_0"></path>
+<path d="M173.5 82.5C173.5 127.153 135.081 163.5 87.5 163.5C39.9191 163.5 1.5 127.153 1.5 82.5C1.5 37.8469 39.9191 1.5 87.5 1.5C135.081 1.5 173.5 37.8469 173.5 82.5Z" stroke="url(#paint0_linear_306_15)" stroke-width="3" class="LTkjdLml_1"></path>
+<defs>
+<linearGradient id="paint0_linear_306_15" x1="26.7562" y1="10.0949" x2="83.577" y2="166.426" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32F445"></stop>
+<stop offset="1" stop-color="#465ADF" stop-opacity="0"></stop>
+</linearGradient>
+</defs>
+<style data-made-with="vivus-instant">.LTkjdLml_0{stroke-dasharray:525 527;stroke-dashoffset:526;animation:LTkjdLml_draw 1000ms linear 0ms forwards;}.LTkjdLml_1{stroke-dasharray:525 527;stroke-dashoffset:526;animation:LTkjdLml_draw 1000ms linear 0ms forwards;}@keyframes LTkjdLml_draw{100%{stroke-dashoffset:0;}}@keyframes LTkjdLml_fade{0%{stroke-opacity:1;}92.3076923076923%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

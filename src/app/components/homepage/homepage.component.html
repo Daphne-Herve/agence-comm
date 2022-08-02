@@ -1,6 +1,9 @@
 <div class="container">
   <div class="content" *ngFor="let result of results | async">
-    <div class="nav">
+    <div style="width: 100%; display: flex; justify-content: flex-end;">
+      <button (click)="openMenuMobile()">Open</button>
+    </div>
+    <div class="nav desktop">
       <img src="../../../assets/img/logo-clemence.png" alt="">
       <ul class="menu">
         <li>{{ result.bloc_home.menu_item.home }}</li>
@@ -10,12 +13,25 @@
         <li>{{ result.bloc_home.menu_item.contact }}</li>
       </ul>
     </div>
+    <!-- <div class="nav mobile">
+      <img src="../../../assets/img/logo-clemence.png" alt="">
+      <ul class="menu" [style.display]="this.isMenuMobileOpened? 'block' : 'none'" >
+        <li>{{ result.bloc_home.menu_item.home }}</li>
+        <li>{{ result.bloc_home.menu_item.about}}</li>
+        <li>{{ result.bloc_home.menu_item.services }}</li>
+        <li>{{ result.bloc_home.menu_item.formations }}</li>
+        <li>{{ result.bloc_home.menu_item.contact }}</li>
+      </ul>
+    </div> -->
 
-    <span class="title">{{ result.bloc_home.title}}</span>
-    <hr class="segment">
-    <span class="subtitle">{{ result.bloc_home.sub_title}}</span>
-    <div class="spacer"></div>
-    <span class="slogan">{{ result.bloc_home.slogan}}</span>
+    <div class="contenu">
+      <span class="title">{{ result.bloc_home.title}}</span>
+      <hr class="segment">
+      <span class="subtitle">{{ result.bloc_home.sub_title}}</span>
+      <div class="spacer"></div>
+      <span class="slogan">{{ result.bloc_home.slogan}}</span>
+    </div>
+
 
   </div>
 </div>

@@ -8,6 +8,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class HomepageComponent implements OnInit {
 
+  public isMenuMobileOpened: boolean = false;
   public results: any;
 
 
@@ -19,4 +20,14 @@ export class HomepageComponent implements OnInit {
 
   }
 
+  public openMenuMobile() {
+    if (!this.isMenuMobileOpened){
+    this.isMenuMobileOpened = true;
+    console.log(this.isMenuMobileOpened);
+
+  } else {
+    this.isMenuMobileOpened = false;
+
+  }
+}
 }
